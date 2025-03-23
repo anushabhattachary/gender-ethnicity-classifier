@@ -1,0 +1,10 @@
+import cv2
+import torch
+import matplotlib
+from deepface import DeepFace
+from ultralytics import YOLO
+
+print("✅ OpenCV Version:", cv2.__version__)
+print("✅ PyTorch Version:", torch.__version__)
+print("✅ Matplotlib Version:", matplotlib.__version__)
+print("✅ DeepFace and YOLO imported successfully!")
